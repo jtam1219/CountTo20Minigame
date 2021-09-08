@@ -7,8 +7,8 @@ public class Single_Player {
         int sum=0;
         String turn="Player";
         while (!Win(sum)){
-                System.out.println("Print a number that adds 1 or 2 until you reach 20 first.");
-                number = stdin.nextInt();
+            System.out.println("Print a number that adds 1 or 2 until you reach 20 first.");
+            number = stdin.nextInt();
             while (Over20(sum)){
                 System.out.println("That number exceeds 20!!! Please add up to 20 and win!");
                 number = stdin.nextInt();
